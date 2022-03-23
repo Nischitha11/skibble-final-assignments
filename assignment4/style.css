@@ -1,0 +1,29 @@
+.heading{
+    margin-top: 15vh;
+    text-align: center;
+}
+.section-center{
+    width: 60%;
+    margin: 0px auto;
+}
+.question{
+    background: #8fddf5;
+    border: 3px solid rgb(166, 180, 194);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+.question-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.question-button{
+    font-size: 20px;
+    background: transparent;
+    background-color: transparent;
+    border: none;
+}

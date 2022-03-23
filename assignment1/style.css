@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:80px;
+    background-color: rgb(114, 231, 221);
+}
+.container{
+    border: 5px solid white;
+    padding: 10px;
+    margin-top: 100px;
+    background-color:yellow ;
+}
+.change-cursor{
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(101, 196, 240);
+    justify-content: center;
+    display: flex;
+}
+.container{
+    background-color: rgb(222, 238, 131);
+    text-align: center;
+    border: 3px solid white;
+    padding: 30px;
+    font-size: 15px;
+}
+input{
+    padding: 5px;
+    font-size: 15px;
+    margin: 5px;
+}
