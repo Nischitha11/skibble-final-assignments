@@ -1,89 +1,118 @@
 let foodContainer = document.querySelector('.food-container');
 const fooditem=[
         {
-        FoodName: "Chocolate Lava Cake",
-        foodimg: './Images/Image12.jpg',
-        price: 'RS 125/-',
-        type: "Deserts",
-        des: "Chocolate Lava Crunch Cakes are baked in our ovens to give them a slightly crunchy, chocolatey crust."
+        FoodName: "idli",
+        foodimg: './images menuapp/idli image.jpg',
+        price: 'RS 40/-',
+        type: "Breakfast",
+        des: " A type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India and in Sri Lanka. "
     },
     {
-        FoodName: "Milk Shake",
-        foodimg: './Images/Image9.jpg',
-        price: 'RS 155/-',
-        type: "Shakes",
-        des: "A cold drink made of milk, a sweet flavouring such as fruit or chocolate, and typically ice cream, whisked until it is frothy."
+        FoodName: "dosa",
+        foodimg: './images menuapp/dosa.jpg',
+        price: 'RS 45/-',
+        type: "Breakfast",
+        des: "A dosa is a thin flat bread originating from South India, made for fermented batter."
+    },
+    {
+        FoodName: "vada",
+        foodimg:'./images menuapp/vada.jpg',
+        price: 'RS 40/-',
+        type: "Breakfast",
+        des: "Vada is also a southindian braekfast made from blackgram .Vadas are really delicious when the outer casings are crispy crackling and soft spongy inside with hardly any traces of oil smell or greasy taste."
+    },
+    {
+        FoodName: "puri",
+        foodimg: './images menuapp/puri.jpg',
+        price: 'RS 50/-',
+        type: "Breakfast",
+        des: "Puri is an unleavened deep fried bread made with flour and salt."
+    },
+    {
+        FoodName: "upma",
+        foodimg: './images menuapp/upma.jpg',
+        price: 'RS 40/-',
+        type: "Breakfast",
+        des: " Upma is a flavourful South Indian braekfast dish made from rava or cream of whaetflour. This traditonal dish involves cooking of roasted rava in water."
+        },
+    {
+        FoodName: "cheese rolls",
+        foodimg: './images menuapp/cheese rolls.jpg',
+        price: 'RS 80/-',
+        type: "Starters",
+        des: "Yummy cheese rolls ia an ideal snack dish made with Indian Cheese and mixed herbs."
+    },
+    {
+        FoodName: "chicken tikka",
+        foodimg: './images menuapp/chicken tikka.jpg',
+        price: 'RS 180/-',
+        type: "Starters",
+        des: "Chicken tikka is a chicken dish originting in Indian subcontinent.It is traditionally small pieces of boneless chicken baked using skewers ."
+    },
+    {
+        FoodName: " Gourmet Prawns",
+        foodimg: './images menuapp/prawns.png',
+        price: 'RS 200/-',
+        type: "Starters",
+        des: "Gourmet prawns receipe is from Great Britian chefs."
+    },
+    {
+        FoodName: "Jeera rice",
+        foodimg: './images menuapp/jeerarice.jpg',
+        price: 'RS 250/-',
+        type: "Lunch",
+        des: "Jeera rice is a popular fried rice dish having the flavour of cumin seeds ."
+    },
+    {
+        FoodName: "Pudina rice",
+        foodimg: './images menuapp/pudina rice.jpg',
+        price: 'RS 150/-',
+        type: "Lunch",
+        des: "Pudina rice is a fragrant,spicy and tasty one pot dish made with fresh mint leaves,basati rice,onion,tomato and some spices and herbs."
     },
     {
         FoodName: "Chicken Biryani",
-        foodimg: './Images/Image6.jpg',
-        price: 'RS 380/-',
+        foodimg: './images menuapp/chicken biryani.jpg',
+        price: 'RS 300/-',
         type: "Lunch",
-        des: "Chicken Biryani is a savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together."
+        des: "Chicken biryani is a savory chicken and layers of rice dish that includes layers of chicken, rice, and aromatics steamed together."
     },
     {
-        FoodName: "Dosa",
-        foodimg: './Images/Image2.jpg',
-        price: 'RS 45/-',
-        type: "breakFast",
-        des: "A dosa is a thin flat bread originating from South India, made from a fermented batter predominantly consisting of lentils and rice"
-    },
-    {
-        FoodName: "Idly",
-        foodimg: './Images/Image1.jpg',
-        price: 'RS 35/-',
-        type: "breakFast",
-        des: "A type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India and in Sri Lanka."
-        },
-    {
-        FoodName: "Poha",
-        foodimg: './Images/Image4.jpg',
-        price: 'RS 35/-',
-        type: "breakFast",
-        des: "Poha is flattened rice that is steam cooked with onions, spices and herbs."
-    },
-    {
-        FoodName: "Veg Biryani",
-        foodimg: './Images/Image5.jpg',
-        price: 'RS 220/-',
+        FoodName: "Fish Biryani",
+        foodimg: './images menuapp/fish biryani.jpg',
+        price: 'RS 400/-',
         type: "Lunch",
-        des: "Vegetable biryani is an aromatic rice dish made with basmati rice, mix veggies, herbs & biryani spices."
+        des: "Fish biryani is a flavourful mix of rice ,spices and fish fillets."
     },
     {
-        FoodName: "Lemon Rice",
-        foodimg: './Images/Image7.jpg',
-        price: 'RS 190/-',
-        type: "Lunch",
-        des: "This is an easy to make dish and the benefits of ingredients like asafoetida and turmeric are immense."
+        FoodName: "Juices",
+        foodimg: './images menuapp/fruits.jpg',
+        price: 'RS 40/- each',
+        type: "Shakes_and_Juices",
+        des: "Juices are made from fresh fruits ."
     },
     {
-        FoodName: "Apricot Delight",
-        foodimg: './Images/Image11.jpg',
-        price: 'RS 155/-',
-        type: "Deserts",
-        des: "A rectangular soft fruit chew made from Apricots & sugar."
+        FoodName: "ChocolateShake",
+        foodimg: './images menuapp/shakes.jpg',
+        price: 'RS 100/-',
+        type: "Shakes_and_Juices",
+        des: "There are different kind of thick shakes flavored with different varieties of fruite and chocolate."
     },
     {
-        FoodName: "Vada",
-        foodimg: './Images/Image3.jpg',
-        price: 'RS 40/-',
-        type: "breakFast",
-        des: "Vadas are really delicious when the outer casings are crispy crackling and soft spongy inside with hardly any traces of oil smell or greasy taste."
+        FoodName: "Jamun",
+        foodimg: './images menuapp/jamun.jpg',
+        price: 'RS 60/-',
+        type: "Desserts",
+        des: "This traditional dessert is the centre of attraction in every festival and occasion in India ."
     },
+    
     {
-        FoodName: "Tomato Rice",
-        foodimg: './Images/Image8.jpg',
-        price: 'RS 195/-',
-        type: "Lunch",
-        des: "Tomato rice is made using tomatoes alone and no vegetables are used except onion."
+        FoodName: "Chocobrownie with icecream",
+        foodimg: './images menuapp/chocobrownie with ice cream.jpg',
+        price: 'RS 80/-',
+        type: "Desserts",
+        des: "Warm and fudgy with premium vanilla ice-cream melting on top,this nutty brownie is chocolate heaven."
     },
-    {
-        FoodName: "Thick Shake",
-        foodimg: './Images/Image10.jpg',
-        price: 'RS 185/-',
-        type: "Shakes",
-        des: "Thickshake is a heart-stealer. Nutella joins the club in the choco category."
-    }
 ]
 console.log(fooditem);
 const food = fooditem.map(item => {
@@ -113,16 +142,22 @@ menu.forEach(m => {
         console.log(e.target.innerHTML);
         foodbox.forEach(box =>{
 
-            box.style.display = "none";
+             box.style.display="none";
             if(e.target.innerHTML==='All'){
                 box.style.display = "block";
             }
             else if(e.target.innerHTML==='Breakfast'){
-                if(box.classList.contains('breakFast'))
+                if(box.classList.contains('Breakfast'))
                 {
                     box.style.display = "block";
                 }
                 
+            }
+            else if(e.target.innerHTML==='Starters'){
+                if(box.classList.contains('Starters'))
+                {
+                    box.style.display = "block";
+                }
             }
             else if(e.target.innerHTML==='Lunch'){
                 if(box.classList.contains('Lunch'))
@@ -131,15 +166,15 @@ menu.forEach(m => {
                 }
                 
             }
-            else if(e.target.innerHTML==='Shakes'){
-                if(box.classList.contains('Shakes'))
+            else if(e.target.innerHTML==='Shakes_and_Juices'){
+                if(box.classList.contains('Shakes_and_Juices'))
                 {
                     box.style.display = "block";
                 }
                 
             }
-            else if(e.target.innerHTML==='Deserts'){
-                if(box.classList.contains('Deserts'))
+            else if(e.target.innerHTML==='Desserts'){
+                if(box.classList.contains('Desserts'))
                 {
                     box.style.display = "block";
                 } 
@@ -155,39 +190,54 @@ const ele2 = document.querySelector(".l2");
 const ele3 = document.querySelector(".l3");
 const ele4 = document.querySelector(".l4");
 const ele5 = document.querySelector(".l5");
+const ele6 = document.querySelector(".l6");
 ele1.addEventListener("click",function(){
-    ele1.style.borderColor="brown";
+    ele1.style.borderColor="blue";
     ele2.style.borderColor="burlywood";
     ele3.style.borderColor="burlywood";
     ele4.style.borderColor="burlywood";
     ele5.style.borderColor="burlywood";
+    ele6.style.borderColor="burlywood";
 })
-ele1.style.borderColor="brown";
+
+ele1.style.borderColor="blue";
 ele2.addEventListener("click",function(){
     ele1.style.borderColor="burlywood";
-    ele2.style.borderColor="brown";
+    ele2.style.borderColor="blue";
     ele3.style.borderColor="burlywood";
     ele4.style.borderColor="burlywood";
     ele5.style.borderColor="burlywood";
+    ele6.style.borderColor="burlywood";
 })
 ele3.addEventListener("click",function(){
     ele1.style.borderColor="burlywood";
     ele2.style.borderColor="burlywood";
-    ele3.style.borderColor="brown";
+    ele3.style.borderColor="blue";
     ele4.style.borderColor="burlywood";
     ele5.style.borderColor="burlywood";
+    ele6.style.borderColor="burlywood";
 })
 ele4.addEventListener("click",function(){
     ele1.style.borderColor="burlywood";
     ele2.style.borderColor="burlywood";
     ele3.style.borderColor="burlywood";
-    ele4.style.borderColor="brown";
+    ele4.style.borderColor="blue";
     ele5.style.borderColor="burlywood";
+    ele6.style.borderColor="burlywood";
 })
 ele5.addEventListener("click",function(){
     ele1.style.borderColor="burlywood";
     ele2.style.borderColor="burlywood";
     ele3.style.borderColor="burlywood";
     ele4.style.borderColor="burlywood";
-    ele5.style.borderColor="brown";
+    ele5.style.borderColor="blue";
+    ele6.style.borderColor="burlywood";
 })
+ele6.addEventListener("click",function(){
+    ele1.style.borderColor="burlywood";
+    ele2.style.borderColor="burlywood";
+    ele3.style.borderColor="burlywood";
+    ele4.style.borderColor="burlywood";
+    ele5.style.borderColor="burlywood";
+    ele6.style.borderColor="blue";
+}) 
