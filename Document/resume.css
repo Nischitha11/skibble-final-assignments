@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(220, 241, 234);
+
+}
+.heading1{
+    text-align:"left";
+    text-decoration-color: blue;
+    font-style:bold;
+    color:rgb(185, 53, 48);
+}
+.div{
+    text-align:end;
+}
+.heading21{
+    text-align: end;
+}
+.heading22{
+    text-align: end;
+    text-decoration-line: underline;
+    color:rgb(61, 47, 189);
+
+}
+.sub-heading{
+    background-color: rgb(245, 227, 128);
+    color: rgb(185, 53, 48);
+}
+table,th,td{
+    border:1px solid black;
+    text-align: center;
+}
+.h4{
+    background-color:rgb(245, 227, 128);
+    color:rgb(185, 53, 48)
+}
