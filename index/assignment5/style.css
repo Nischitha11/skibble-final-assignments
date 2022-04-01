@@ -1,0 +1,80 @@
+.menu-title{
+    margin-top: 5rem;
+}
+.menu-title span{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 10%;
+    color: black;
+    border-bottom: 5px solid rgb(81, 46, 209);
+}
+.menu-title{
+    text-align: center; 
+}
+.catagories ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+}
+.catagories ul li{
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 2px solid rgb(236, 37, 37);
+    border-radius: 5px;
+    color: rgb(190, 218, 236);
+    background-color: white;
+    list-style-type: none;
+}
+.ll:hover {
+    background-color: rgb(31, 197, 189);
+    color: white;
+}
+.catagories ul{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.content .c-image {
+    width: 300px;
+    height: 160px;
+    border: 3px solid var(--golden);
+    border-radius: 5px;
+}
+.content .c-image img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid brown;
+    border-radius: 8px;
+}
+.content .t-n-p{
+    margin-left: 20px;
+    width: 1000px;
+}
+.content .t-n-p .header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #182433;
+    padding: 0px 5px;
+  }
+.content .t-n-p .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.content .t-n-p .price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--golden);
+    word-spacing: 2px;
+}
+.content .t-n-p .des p{
+    font-size: 1.2rem;
+}
